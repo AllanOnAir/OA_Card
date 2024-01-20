@@ -3,7 +3,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 
 
-QBCore.Functions.CreateUseableItem('carteb', function(source)
+QBCore.Functions.CreateUseableItem('card_deck', function(source)
 	local Player = QBCore.Functions.GetPlayer(source)
     TriggerClientEvent("OA_Card:Ouverture", source)
 end)
